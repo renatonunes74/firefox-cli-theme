@@ -13,8 +13,8 @@
 /* User changable variables */
 @import 'includes/multi-row_tabs.css';
 :root {
-	--tab-font-size: 10px; /* Font size of the tab labels */
-	--tab-font-family: terminus;
+	--tab-font-size: 11px; /* Font size of the tab labels */
+	--tab-font-family: tamzen;
 	--max-tab-width: none; /* The maximum width a tab in the tab bar can use. Set this to none for no limit */
 	--show-titlebar-buttons: none; /* Hide the buttons (close/minimize/maximize) in the title bar. Required on some platforms (e.g macOS) to fully hide the title bar. `none` hides them, `block` shows them */
 	--tab-height: 14px;
