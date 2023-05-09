@@ -10,9 +10,18 @@
 <h1>Theme terminal for Mozilla Firefox</h1>
 <h4>Theme code based: <a href="https://github.com/rockofox/firefox-minima">firefox-minima by rockofox</a><br>Tested on version: Mozilla Firefox 112.0.2</h4>
 <a href="https://firefox-cli-theme/pages/sobre/">Preview</a>
+<a href="https://firefox-cli-theme/pages/sobre/">Instalação</a>
 <br>
 <br>
 <div align="left">
 
 ## Preview
 ![](https://github.com/renatonunes74/firefox-cli-theme/blob/main/firefox_thema.png)
+
+## Instalation
+- Create a folder with the name chrome in your Firefox profile directory and copy the `userChrome.css` and `includes` into it.
+  - To find your profile directory, go to about:support or about:profiles.
+- Go to about:config and set toolkit.legacyUserProfileCustomizations.stylesheets to true
+- Restart Firefox.
+
+
