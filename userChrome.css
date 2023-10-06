@@ -233,8 +233,13 @@ tabs {
 	--panel-banner-item-update-supported-bgcolor: #2c2c2c;
 	--panel-banner-item-info-icon-bgcolor: #2c2c2c;
 	--tab-icon-overlay-stroke: black;
-	--arrowpanel-background: #2c2c2c;
+	--arrowpanel-background: black;
+	--arrowpanel-border-color: #2c2c2c;
+	--toolbar-field-background-color: #2c2c2c;
+	--toolbar-field-border-color: #2c2c2c;
 	--toolbar-field-focus-background-color: black;
 	--toolbar-bgcolor: black;
 	--toolbar-color: black;
+	--lwt-selected-tab-background-color: #2c2c2c;
+	--autocomplete-popup-highlight-background: #2c2c2c;
 }
