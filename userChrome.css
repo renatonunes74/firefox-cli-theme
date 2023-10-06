@@ -21,6 +21,7 @@
 	--lwt-tab-line-color: white;
 	--toolbar-bgcolor: black !important;
 	--sidebar-background-color: black;
+	--tabpanel-background-color: #black;
 }
 
 :root:not([privatebrowsingmode=temporary], [firefoxviewhidden]) :is(toolbarbutton, toolbarpaletteitem) + #tabbrowser-tabs,
@@ -218,4 +219,22 @@ tabs {
 }
 #navigator-toolbox {
 	appearance: toolbar !important; /* Pretty much anything except none */
+}
+#main-window {
+	--button-bgcolor: black;
+	--button-hover-bgcolor: #2c2c2c;
+	--button-active-bgcolor: black;
+	--button-primary-bgcolor: #2c2c2c;
+	--button-primary-hover-bgcolor: #2c2c2c;
+	--button-primary-active-bgcolor: #2c2c2c;
+	--button-primary-color: black;
+	--input-bgcolor: black;
+	--autocomplete-popup-separator-color: black;
+	--panel-banner-item-update-supported-bgcolor: #2c2c2c;
+	--panel-banner-item-info-icon-bgcolor: #2c2c2c;
+	--tab-icon-overlay-stroke: black;
+	--arrowpanel-background: #2c2c2c;
+	--toolbar-field-focus-background-color: black;
+	--toolbar-bgcolor: black;
+	--toolbar-color: black;
 }
