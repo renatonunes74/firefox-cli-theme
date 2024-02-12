@@ -13,6 +13,7 @@
 /* User changable variables */
 @import 'includes/multi-row_tabs.css';
 :root {
+	--tab-min-height: auto;
 	--tab-height: 18px !important; /*error hide tab*/
 	--tab-font-size: 11px; /* Font size of the tab labels */
 	--tab-font-family: tamzen;
