@@ -13,7 +13,7 @@
 /* User changable variables */
 @import 'includes/multi-row_tabs.css';
 :root {
-	--tab-height: 18px; /*error hide tab*/
+	--tab-height: 18px !important; /*error hide tab*/
 	--tab-font-size: 11px; /* Font size of the tab labels */
 	--tab-font-family: tamzen;
 	--max-tab-width: none; /* The maximum width a tab in the tab bar can use. Set this to none for no limit */
@@ -103,7 +103,7 @@ toolbarspring {
 	padding: 0;
 }
 .tabbrowser-tab {
-	height: var(--tab-height);
+	/*height: var(--tab-height); *error hide tab*/
 	font-size: var(--tab-font-size) !important;
 	min-height: 0 !important;
 	background-color: #000000 !important;
